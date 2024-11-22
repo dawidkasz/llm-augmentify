@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "llm-augmentify"
+version = "0.1.0"
+description = "A Python library, which generates text augmentations and improves your classification model."
+authors = ["Dawid Kaszynski"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "llm_augmentify"}]
+repository = "https://github.com/dawidkasz/llm-augmentify"
+keywords = ["LLM", "data augmentation", "text classification"]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
